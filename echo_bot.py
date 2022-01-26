@@ -5,6 +5,7 @@ import telebot
 token = "5093935580:AAGLpMwaKPBwXZx9I8RrgPQg2sNVWGgt228"
 APP_URL = f'https://echo-bot-418.herokuapp.com/'
 bot = telebot.TeleBot("5093935580:AAGLpMwaKPBwXZx9I8RrgPQg2sNVWGgt228")
+server = Flask(__name__)
 
 
 

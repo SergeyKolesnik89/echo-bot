@@ -14,4 +14,4 @@ def repeat_all_messages(message): # Название функции не игр�
     bot.send_message(message.chat.id, message.text)
 
 if __name__ == '__main__':
-     bot.infinity_polling()
+     server.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))

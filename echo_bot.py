@@ -5,7 +5,8 @@ from aiogram.utils import executor
 from config import TOKEN
 
 
-bot = Bot(token="5093935580:AAGLpMwaKPBwXZx9I8RrgPQg2sNVWGgt228")
+bot = Bot(TOKEN="5093935580:AAGLpMwaKPBwXZx9I8RrgPQg2sNVWGgt228")
+APP_URL = f'https://echotelbot.herokuapp.com/{TOKEN}'
 dp = Dispatcher(bot)
 
 
